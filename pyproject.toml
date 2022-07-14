@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pyviva"
+version = "0.1.0"
+description = "Python quiz app for the terminal"
+authors = [
+    "Ayush Gupta <ayushgupta01195@gmail.com>",
+    "Sayanjit Ukil <author@example.com>"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+textual = "^0.1.18"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pyviva = "pyviva:main"
