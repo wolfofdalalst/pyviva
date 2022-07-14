@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Python quiz app for the terminal"
 authors = [
     "Ayush Gupta <ayushgupta01195@gmail.com>",
-    "Sayanjit Ukil <author@example.com>"
+    "Sayanjit Ukil <sayanjitukil2005@gmail.com>"
 ]
 
 [tool.poetry.dependencies]
