@@ -4,19 +4,22 @@ It requires python 3.7+ to run.
 
 
 ## Project setup
-Install using git or directly from source
+Install using pip or directly from source
 ```
 pip install git+https://github.com/GuptaAyush19/pyviva.git
 ```
 Users can also use [poetry](https://python-poetry.org/docs/) to install this repository (recommended for developers looking to contribute)
 ```
 pip install --user poetry
-git clone https://github.com/GuptaAyush19/pyviva.git && cd pyviva
-poetry install
+git clone https://github.com/GuptaAyush19/pyviva.git && cd ./pyviva
+python -m poetry install
 ```
 
 ## Basic usage
-TODO
+After the installation process is complete, run this command to start using the quiz app
+```
+python -m pyviva
+```
 
 ## TODO
 - Installation script
