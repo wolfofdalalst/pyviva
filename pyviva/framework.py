@@ -23,7 +23,12 @@ class QuestionSet:
         [self.uid, self.diff, self.question, self.options, self.answer] = self.args
 
     def __call__(self) -> list:
+        # >>> question_set()
         return self.args
+
+    def __repr__(self) -> str:
+        # >>> print(question_set)
+        return str(self.__call__())
 
 
 def _uuid() -> int:
