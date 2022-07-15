@@ -21,8 +21,7 @@ After the installation process is complete, run this command to start using the 
 python -m pyviva
 ```
 
-## Run unittests
-This package uses python's in-built unittest module for unittesting
+This package uses python's in-built unittest module for unit-testing
 ```
 python -m unittest discover -v
 ```
