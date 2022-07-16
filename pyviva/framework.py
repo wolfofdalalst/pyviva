@@ -41,8 +41,13 @@ def _uuid() -> int:
 # read operations
 
 
-def _return_csv_data() -> list[list]:
+def _return_csv_data() -> list:
     # returns the csv data in the form of a list, including the headers
+    # example output:
+    # [
+    #   ["3618642576","-1","What's 9+10?","[19, 21, 20, None]","2"],
+    #   ...
+    # ]
     result = list()
     with open(PATH, "r") as csv_file:
         csv_reader = csv.reader(csv_file)

@@ -1,6 +1,6 @@
 # pyviva: tui based quiz app 
 pyviva is a quiz app written in python and uses [textual](https://github.com/Textualize/textual) as frontend. This project is os independent and can be seamlessly installed using [poetry](https://python-poetry.org/docs/). \
-It requires python 3.7+ to run. \
+It requires python 3.8+ to run. \
 _NOTE: The project is still under development, and is still in alpha stage._
 
 ## Quick project setup
