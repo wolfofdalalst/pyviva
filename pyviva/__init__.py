@@ -12,4 +12,4 @@ __authors__ = [
 ]
 
 def main():
-    random_question(diff=-1)
+    print(random_question(diff=-1))
