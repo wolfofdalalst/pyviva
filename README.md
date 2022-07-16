@@ -12,6 +12,7 @@ And for linux/osx users run this bash command
 ```
 wget -O - https://raw.githubusercontent.com/GuptaAyush19/pyviva/master/scripts/install.sh | bash
 ```
+### Basic Usage
 And finally after the installation process is complete, run this command to start using the quiz app
 ```
 python -m pyviva
