@@ -5,18 +5,16 @@ _NOTE: The project is still under development, and is still in alpha stage._
 
 ## Quick project setup
 For users on windows, run the following command in powershell to automatically install this python package on your system. One can also install directly from source using python-pip3 the details of which are given [here](https://github.com/GuptaAyush19/pyviva#download-from-source).
-```ps1
+```
 (Invoke-WebRequest -Uri https://raw.githubusercontent.com/GuptaAyush19/pyviva/master/scripts/install.ps1).Content | Invoke-Expression
 ```
 And for linux/osx users run this bash command
-```bash
+```
 wget -O - https://raw.githubusercontent.com/GuptaAyush19/pyviva/master/scripts/install.sh | bash
 ```
-### Start using the quiz app
-After the installation process is complete, run this command to start using the quiz app
+And finally after the installation process is complete, run this command to start using the quiz app
 ```
-pyviva
-# python -m pyviva
+python -m pyviva
 ```
 
 ## Download from source
