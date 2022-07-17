@@ -1,3 +1,5 @@
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 $SOURCE = "https://github.com/GuptaAyush19/pyviva/archive/master.zip"
 $DESTINATION=  "$HOME\Downloads\pyviva.zip"
 
