@@ -3,7 +3,7 @@ from rich.layout import Layout
 from rich.panel import Panel
 
 
-def layout(): # creating base layout 
+def make_layout(): # creating base layout 
 
     layout=Layout()
 
