@@ -40,7 +40,6 @@ python -m unittest discover -v
 ## TODO
 - Frontend implementation
 - Include more questions in csv file
-- Automated testing on github
 
 ## License
 This repository falls under [GPL-3.0 License](https://raw.githubusercontent.com/GuptaAyush19/pyviva/master/LICENSE)
